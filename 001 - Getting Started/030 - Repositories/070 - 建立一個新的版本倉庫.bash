@@ -15,7 +15,7 @@ printf "請問您是否要建立私有版本倉庫(true/false)？"
 read choice_is_private_repository
 while [[ ! ( "${choice_is_private_repository}" == "false" || "${choice_is_private_repository}" == "true" ) ]]; do
 printf "格式錯誤，請重新輸入。"
-printf "請問您是否要自動初始化版本倉庫(true/false)？"
+printf "請問您是否要建立私有版本倉庫(true/false)？"
 read choice_is_private_repository
 done
 
