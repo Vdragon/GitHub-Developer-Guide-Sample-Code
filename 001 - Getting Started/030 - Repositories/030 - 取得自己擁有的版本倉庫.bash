@@ -6,4 +6,4 @@ curl --include --header "Authorization: token ${github_api_token}" https://api.g
 
 printf "\n請按 Enter 鍵結束程式。"
 read nothing
-exit 0;
+exit 0

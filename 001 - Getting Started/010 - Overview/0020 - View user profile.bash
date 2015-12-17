@@ -4,4 +4,4 @@ read github_user_name
 curl https://api.github.com/users/${github_user_name}
 printf "請按 Enter 鍵結束程式。"
 read nothing
-exit 0;
+exit 0

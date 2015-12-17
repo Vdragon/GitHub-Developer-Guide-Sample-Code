@@ -9,4 +9,4 @@ curl --include "https://api.github.com/repos/${github_user_or_organization_ident
 
 printf "\n請按 Enter 鍵結束程式。"
 read nothing
-exit 0;
+exit 0

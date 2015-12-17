@@ -6,4 +6,4 @@ curl --include --user ${github_user_name} https://api.github.com/user
 
 printf "\n請按 Enter 鍵結束程式。"
 read nothing
-exit 0;
+exit 0

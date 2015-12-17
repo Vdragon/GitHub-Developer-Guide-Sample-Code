@@ -7,4 +7,4 @@ curl --include "https://api.github.com/users/${github_user_identifier}/repos"
 
 printf "\n請按 Enter 鍵結束程式。"
 read nothing
-exit 0;
+exit 0

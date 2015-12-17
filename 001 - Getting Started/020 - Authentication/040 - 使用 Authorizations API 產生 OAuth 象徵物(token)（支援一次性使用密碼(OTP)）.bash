@@ -8,4 +8,4 @@ curl --include --user ${github_user_name} --header "X-GitHub-OTP: ${github_one_t
 
 printf "\n請按 Enter 鍵結束程式。"
 read nothing
-exit 0;
+exit 0
