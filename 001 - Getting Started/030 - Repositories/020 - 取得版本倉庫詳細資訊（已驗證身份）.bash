@@ -1,5 +1,4 @@
 #!/bin/bash
-# https://developer.github.com/guides/getting-started/#basic
 printf "請輸入您要察看的 GitHub 使用者／組織識別名稱（非顯示名稱）："
 read github_user_or_organization_identifier
 printf "請輸入您要察看的 Git 版本倉庫名稱（非顯示名稱）："
