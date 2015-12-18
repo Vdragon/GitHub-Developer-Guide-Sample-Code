@@ -11,7 +11,7 @@ read repository_identifier
 printf "請輸入新議題標題："
 read issue_title
 
-printf "請輸入新議題內容："
+printf "請輸入新議題內容（於新的一列中輸入「END_OF_ISSUE」再按下 Enter 鍵以繼續）："
 while IFS= read -r input_line; do
   if [[ "$input_line" == "END_OF_ISSUE" ]]; then
     break
