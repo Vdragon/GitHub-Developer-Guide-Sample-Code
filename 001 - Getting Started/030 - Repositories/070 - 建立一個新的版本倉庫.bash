@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 printf "請輸入您要建立的 Git 版本倉庫識別名稱（非顯示名稱）："
 read new_repository_identifier
 
